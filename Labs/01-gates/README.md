@@ -80,6 +80,20 @@
 
 *(x + y).(x + z) = x + (y . z)*
 
+------------------------------------------------------------------------
+### Požadované části zdrojového kódu:
+------------------------------------------------------------------------
+
+     port(
+    	     x_i : in std_logic;
+           y_i : in std_logic;
+          z_i : in std_logic;
+          f1_leva : out std_logic;
+          f1_prava : out std_logic;
+          f2_leva : out std_logic;
+          f2_prava : out std_logic
+     );
+
 #### Odkaz na zdrojový kód s možností spustit simulaci: [DistribucniFunkce-SourceCode](https://www.edaplayground.com/x/N_B9)
 
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
