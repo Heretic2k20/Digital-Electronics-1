@@ -99,6 +99,6 @@
 ------------------------------------------------------------------------
 ### Výstup:
 ------------------------------------------------------------------------
-![VystupSimulace-DistribucniRovnice](graf_De_Morganova_pravidla.JPG)
+![VystupSimulace-DistribucniRovnice](vystup_distribucni_funkce.JPG)
 
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
