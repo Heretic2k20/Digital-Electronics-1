@@ -72,8 +72,14 @@
 | 1 | 1 | 0 | **0** |
 | 1 | 1 | 1 | **0** |
 
-## Část 3 - Modifikovaná  De Morganova pravidla na příkladu: 
+## Část 3 - Distribuční funkce a jejich užití: 
 
-#### Odkaz na zdrojový kód s možností spustit simulaci: [GatesModifySourceCode](https://www.edaplayground.com/x/N_B9)
+**Pravidla:**
+
+*x.y + x.z = x.(y+z)*
+
+*(x + y).(x + z) = x + (y . z)*
+
+#### Odkaz na zdrojový kód s možností spustit simulaci: [DistribucniFunkce-SourceCode](https://www.edaplayground.com/x/N_B9)
 
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
