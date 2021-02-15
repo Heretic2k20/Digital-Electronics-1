@@ -8,4 +8,4 @@
 **Zde je odkaz na můj git repozítář:** [MyGitHub](https://github.com/Heretic2k20/Digital-Electronics-1)
 
 
-###### (xhynst03 - VUT FEKT)
+###### (xhynst03 - VUT FEKT  |  15.02.2021)
