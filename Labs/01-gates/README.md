@@ -24,10 +24,6 @@
 
 ***Popis "Black-boxu" (Vstupů a výstupů):***
 
-*------------------------------------------------------------------------
-
- entity gates is
- 
      port(
      
         a_i     : in  std_logic;         -- Data input
@@ -43,19 +39,10 @@
         fnor_o  : out std_logic          -- NOR output function
         
     );
-    
-end entity gates;
-
-------------------------------------------------------------------------*
 
 
 ***Architektura (Implementace vzorců):***
 
-*------------------------------------------------------------------------
-
-architecture dataflow of gates is
-
-begin
 
     f_o     <= ((not b_i) and a_i) or ((not c_i) and (not b_i));
     
@@ -63,8 +50,5 @@ begin
     
     fnor_o  <= not (b_i or (not a_i)) or (not (c_i or b_i));
     
-end architecture dataflow;
-
-------------------------------------------------------------------------*
 
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
