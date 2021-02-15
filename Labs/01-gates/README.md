@@ -11,6 +11,7 @@
 
 **Pravidla:**
 [De Morgan's law]()
+d(c;b;a) = not(b).a + not(c).not(b)
 
 
 
