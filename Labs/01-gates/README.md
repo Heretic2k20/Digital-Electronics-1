@@ -9,6 +9,9 @@
 
 ## Část 2 - De Morganova pravidla: 
 
+**Pravidla:**
+[De Morgan's law]()
+
 
 
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
