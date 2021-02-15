@@ -47,7 +47,7 @@
 ------------------------------------------------------------------------
 ### Výstup:
 ------------------------------------------------------------------------
-![VystupSimulace](graf_De_Morganova_pravidla.JPG)
+![VystupSimulace-Gate](graf_De_Morganova_pravidla.JPG)
 
 ------------------------------------------------------------------------
 ### Tabulka zjištěných hodnot:
@@ -95,5 +95,10 @@
     f2_right <= x_i or (y_i and z_i);
 
 #### Odkaz na zdrojový kód s možností spustit simulaci: [DistribucniFunkce-SourceCode](https://www.edaplayground.com/x/N_B9)
+
+------------------------------------------------------------------------
+### Výstup:
+------------------------------------------------------------------------
+![VystupSimulace-DistribucniRovnice](graf_De_Morganova_pravidla.JPG)
 
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
