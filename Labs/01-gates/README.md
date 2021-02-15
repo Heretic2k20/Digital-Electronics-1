@@ -52,6 +52,11 @@
     
 
 #### Odkaz na zdrojový kód: [GatesSourcCode](https://www.edaplayground.com/x/wtbF)
+
+------------------------------------------------------------------------
+### Výstup:
+------------------------------------------------------------------------
+![VystupSimulace](graf%20De%20Morganova%20pravidla.JPG)
     
 
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
