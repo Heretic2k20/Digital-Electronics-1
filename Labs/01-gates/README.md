@@ -82,7 +82,7 @@
         y_i     : in  std_logic;         -- Data input
         z_i     : in  std_logic;         -- Data input
         f1_left : out std_logic;         -- left output function
-        f1_right: out std_logic;          -- right output function
+        f1_right: out std_logic;         -- right output function
         f1_left : out std_logic;         -- left output function
         f1_right: out std_logic          -- right output function
     );
