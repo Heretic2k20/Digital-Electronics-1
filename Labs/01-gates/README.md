@@ -94,7 +94,6 @@
     f2_left  <= (x_i or y_i) and (x_i or z_i);
     f2_right <= x_i or (y_i and z_i);
 
-end entity gates;
 #### Odkaz na zdrojový kód s možností spustit simulaci: [DistribucniFunkce-SourceCode](https://www.edaplayground.com/x/N_B9)
 
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
