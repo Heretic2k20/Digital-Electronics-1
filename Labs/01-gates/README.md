@@ -32,7 +32,7 @@
         
         c_i     : in  std_logic;         -- Data input
         
-        f_o     : out std_logic;          -- OR output function
+        f_o     : out std_logic;         -- OR output function
         
         fnand_o : out std_logic;         -- AND output function
         
