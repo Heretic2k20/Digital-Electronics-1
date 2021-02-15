@@ -56,7 +56,7 @@
 ------------------------------------------------------------------------
 ### Výstup:
 ------------------------------------------------------------------------
-![VystupSimulace](graf%20De%20Morganova%20pravidla.JPG)
+![VystupSimulace](graf_De_Morganova_pravidla.JPG)
     
 
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
