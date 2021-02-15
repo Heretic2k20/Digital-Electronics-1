@@ -51,7 +51,7 @@
     fnor_o  <= not (b_i or (not a_i)) or (not (c_i or b_i));
     
 
-#### Odkaz na zdrojový kód: [GatesSourcCode](https://www.edaplayground.com/x/wtbF)
+#### Odkaz na zdrojový kód s možností spustit simulaci: [GatesSourcCode](https://www.edaplayground.com/x/wtbF)
 
 ------------------------------------------------------------------------
 ### Výstup:
