@@ -1,6 +1,6 @@
 # Digital-Electronics-1
 
-**Anyone:** *"So, how are you enjoying stydying from home so far?"*
+**Anyone:** *"So... How are you enjoying stydying from home so far?"*
 
 **Me:**
 
