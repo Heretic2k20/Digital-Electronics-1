@@ -72,4 +72,8 @@
 | 1 | 1 | 0 | **0** |
 | 1 | 1 | 1 | **0** |
 
+## Část 2 - Modifikovaná  De Morganova pravidla na příkladu: 
+
+#### Odkaz na zdrojový kód s možností spustit simulaci: [GatesModifySourceCode](https://www.edaplayground.com/x/N_B9)
+
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
