@@ -84,16 +84,18 @@
 ### Požadované části zdrojového kódu:
 ------------------------------------------------------------------------
 
-     port(
-    	     x_i : in std_logic;
-           y_i : in std_logic;
-          z_i : in std_logic;
-          f1_leva : out std_logic;
-          f1_prava : out std_logic;
-          f2_leva : out std_logic;
-          f2_prava : out std_logic
-     );
+***Popis "Black-boxu" (Vstupů a výstupů):***
 
+    port( 
+        x_i     : in  std_logic;         -- Data input
+        y_i     : in  std_logic;         -- Data input
+        z_i     : in  std_logic;         -- Data input
+        f1_left : out std_logic;         -- left output function
+        f1_right: out std_logic          -- right output function
+        f1_left : out std_logic;         -- left output function
+        f1_right: out std_logic          -- right output function
+    );
+end entity gates;
 #### Odkaz na zdrojový kód s možností spustit simulaci: [DistribucniFunkce-SourceCode](https://www.edaplayground.com/x/N_B9)
 
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
