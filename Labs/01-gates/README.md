@@ -1,5 +1,5 @@
-# Lab 01 - Úvod do GIT a VHDL
-#### (xhynst03)
+# Lab 01 - Úvod do GIT a VHDL #### (xhynst03)
+
 
 ![Logo](logolink_eng.jpg)
 
