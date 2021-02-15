@@ -10,8 +10,12 @@
 ## Část 2 - De Morganova pravidla: 
 
 **Pravidla:**
-[De Morgan's law]()
-d(c;b;a) = not(b).a + not(c).not(b)
+
+*f(c;b;a) = not(b).a + not(c).not(b)*
+
+*f(c;b;a)nand = not{not[not(b).a] . not[not(c).not(b)]}*
+
+*f(c;b;a)nor = not[b + not(a)] + not[c + b]*
 
 
 
