@@ -1,6 +1,6 @@
 # Digital-Electronics-1
 
-**Anyone:** *"So, how do you like Git so far?"*
+**Anyone:** *"So, how are you enjoying Git so far?"*
 
 **Me:**
 
