@@ -7,7 +7,7 @@
 ### **I hate Git**
 
 Reference-style:
-![mood][]
+![mood][sad cat.jpg]
 ```vhdl
 
 
