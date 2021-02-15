@@ -6,6 +6,8 @@
 
 ### **I hate Git**
 
+Reference-style:
+![mood][]
 ```vhdl
 
 
