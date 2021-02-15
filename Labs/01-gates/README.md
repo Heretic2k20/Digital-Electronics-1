@@ -89,12 +89,10 @@
     
 ***Architektura (Implementace vzorců):***
 
-
-
     f1_left  <= (x_i and y_i) or (x_i and z_i);
     f1_right <= x_i and (y_i or z_i);
     f2_left  <= (x_i or y_i) and (x_i or z_i);
-    f2_right <= x_i or (y_i and z_i)
+    f2_right <= x_i or (y_i and z_i);
 
 end entity gates;
 #### Odkaz na zdrojový kód s možností spustit simulaci: [DistribucniFunkce-SourceCode](https://www.edaplayground.com/x/N_B9)
