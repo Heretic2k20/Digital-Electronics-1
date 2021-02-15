@@ -1,4 +1,4 @@
-# Lab 01 - Úvod do GIT a VHDL (Gates)
+# Lab 01 - Gates
 
 
 
