@@ -17,7 +17,9 @@
 
 *f(c;b;a)nor = not[b + not(a)] + not[c + b]*
 
-#### Odkaz na zdrojový kód: [GatesSourcCode](https://www.edaplayground.com/x/wtbF)
+------------------------------------------------------------------------
+### Odkaz na zdrojový kód: [GatesSourcCode](https://www.edaplayground.com/x/wtbF)
+------------------------------------------------------------------------
 
 #### Požadované části zdrojového kódu:**
 
