@@ -17,12 +17,10 @@
 
 *f(c;b;a)nor = not[b + not(a)] + not[c + b]*
 
-------------------------------------------------------------------------
-### Odkaz na zdrojový kód: [GatesSourcCode](https://www.edaplayground.com/x/wtbF)
-------------------------------------------------------------------------
 
-#### Požadované části zdrojového kódu:**
-
+------------------------------------------------------------------------
+### Požadované části zdrojového kódu:
+------------------------------------------------------------------------
 
 ***Popis "Black-boxu" (Vstupů a výstupů):***
 
@@ -51,6 +49,9 @@
     fnand_o <= not ((not ((not b_i) and a_i)) and (not ((not c_i) and (not b_i))));
     
     fnor_o  <= not (b_i or (not a_i)) or (not (c_i or b_i));
+    
+
+#### Odkaz na zdrojový kód: [GatesSourcCode](https://www.edaplayground.com/x/wtbF)
     
 
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
