@@ -27,7 +27,8 @@
 **Funkce pro B = A:**
 
 *f(b=a) = [not(b1).not(b0).not(a1).not(a0)] + [not(b1).b0.not(a1).a0] + [b1.not(b0).a1.not(a0)] + [b1.b0.a1.a0]*
-!a0
+
+**Funkce pro B < A:**
 
 ![Logo](logolink_eng.jpg)
 
