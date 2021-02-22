@@ -34,4 +34,4 @@
 
 
 ## K-Mapy a zjednodušené logické funkce:
-**Zde je odkaz na můj git repozitář:** [MyGitHub](https://github.com/Heretic2k20/Digital-Electronics-1)
+![K-Maps](K-Maps.JPG)
