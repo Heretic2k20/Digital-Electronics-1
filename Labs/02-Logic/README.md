@@ -34,4 +34,4 @@
 
 
 ## K-Mapy a zjednodušené logické funkce:
-![K-Maps](K-Maps.JPG)
+![K-Maps](K-maps.JPG)
