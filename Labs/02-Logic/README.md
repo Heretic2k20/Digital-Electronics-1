@@ -33,5 +33,5 @@
 *f(b<a) = [b1 + b0 + a1 + a0] . [b1 + not(b0) + a1 + a0] . [b1 + not(b0) + a1 + not(a0)] . [not(b1) + b0 + a1 + a0] . [not(b1) + b0 + a1 + not(a0)] . [not(b1) + b0 + not(a1) + a0] . [not(b1) + (notb0) + a1 + a0] . [not(b1) + not(b0) + a1 + not(a0)] . [not(b1) + not(b0) + not(a1) + a0] . [not(b1) + not(b0) + not(a1) + not(a0)]*
 
 
-## Část 1 - GitHub:
+## K-Mapy a zjednodušené logické funkce:
 **Zde je odkaz na můj git repozitář:** [MyGitHub](https://github.com/Heretic2k20/Digital-Electronics-1)
