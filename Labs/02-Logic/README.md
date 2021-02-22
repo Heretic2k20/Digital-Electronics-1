@@ -30,7 +30,6 @@
 
 **Funkce pro B < A:**
 
-![Logo](logolink_eng.jpg)
 
 ## Část 1 - GitHub:
 **Zde je odkaz na můj git repozitář:** [MyGitHub](https://github.com/Heretic2k20/Digital-Electronics-1)
