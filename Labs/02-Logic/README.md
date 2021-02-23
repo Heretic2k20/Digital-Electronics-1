@@ -164,22 +164,22 @@
         
         	--13
               	s_b <= "1111"; s_a <= "0100"; wait for 100 ns;
-         	assert ((s_B_big_A = '1') and (s_B_equ_A = '0') and (s_B_smo_A = '0'))
+		assert ((s_B_big_A = '1') and (s_B_equ_A = '0') and (s_B_smo_A = '0'))
         	report "Error appeared for input: 1111, 0100" severity error;
         
         	--14
-               	s_b <= "1111"; s_a <= "1101"; wait for 100 ns;
-               	assert ((s_B_big_A = '1') and (s_B_equ_A = '0') and (s_B_smo_A = '0'))
+		s_b <= "1111"; s_a <= "1101"; wait for 100 ns;
+		assert ((s_B_big_A = '1') and (s_B_equ_A = '0') and (s_B_smo_A = '0'))
         	report "Error appeared for input: 1111, 1101" severity error;
         	
         	--15
                	s_b <= "1111"; s_a <= "1110"; wait for 100 ns;
-               	assert ((s_B_big_A = '1') and (s_B_equ_A = '0') and (s_B_smo_A = '0'))
+		assert ((s_B_big_A = '1') and (s_B_equ_A = '0') and (s_B_smo_A = '0'))
         	report "Error appeared for input: 1111, 1110" severity error;
         
         	--16
                	s_b <= "1111"; s_a <= "1111"; wait for 100 ns;
-              	assert ((s_B_big_A = '0') and (s_B_equ_A = '1') and (s_B_smo_A = '0'))
+		assert ((s_B_big_A = '0') and (s_B_equ_A = '1') and (s_B_smo_A = '0'))
         	report "Error appeared for input: 1111, 1111" severity error;
 
 
