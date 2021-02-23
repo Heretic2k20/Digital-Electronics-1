@@ -190,9 +190,13 @@
 
 	end architecture testbench;
 
-## Část 4 - LOG:
+## Část 4 - VÝSTUP:
 
-	[2021-02-22 19:23:49 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_4bit && ghdl -r  tb_comparator_4bit   
+------------------------------------------------------------------------
+### LOG:
+------------------------------------------------------------------------
+
+	[2021-02-22 20:02:29 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_4bit && ghdl -r  tb_comparator_4bit   --vcd=dump.vcd && sed -i 's/^U/X/g; s/^-/X/g; 	  s/^H/1/g; s/^L/0/g' dump.vcd 
 	analyze design.vhd
 	analyze testbench.vhd
 	elaborate tb_comparator_4bit
@@ -201,6 +205,15 @@
 	testbench.vhd:87:9:@400ns:(assertion error): Error appeared for input: 0100, 0011
 	testbench.vhd:94:9:@500ns:(assertion error): Error appeared for input: 0101, 0100
 	testbench.vhd:176:9:@1600ns:(report note): Stimulus process finished
+	Finding VCD file...
+	./dump.vcd
+	[2021-02-22 20:02:31 EST] Opening EPWave...
 	Done
+	
+------------------------------------------------------------------------
+### Grafický výstup simulace:
+------------------------------------------------------------------------
+
+
 
 
