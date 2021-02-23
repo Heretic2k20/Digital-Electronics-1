@@ -36,7 +36,7 @@
 ## Část 2 - Karnaughovy mapy a zjednodušené logické funkce:
 ![K-Maps](K-maps.JPG)
 
-## Část 3 - Binární komparátor:
+## Část 3 - Zdrojový kód:
 
 ### Design.VHD
 
@@ -196,7 +196,9 @@
 ### LOG:
 ------------------------------------------------------------------------
 
-	[2021-02-22 20:02:29 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_4bit && ghdl -r  tb_comparator_4bit   --vcd=dump.vcd && sed -i 's/^U/X/g; s/^-/X/g; 	  s/^H/1/g; s/^L/0/g' dump.vcd 
+	[2021-02-22 20:02:29 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_4bit && ghdl -r  tb_comparator_4bit   
+	--vcd=dump.vcd && sed -i 's/^U/X/g; s/^-/X/g; 	  
+	s/^H/1/g; s/^L/0/g' dump.vcd 
 	analyze design.vhd
 	analyze testbench.vhd
 	elaborate tb_comparator_4bit
@@ -213,6 +215,13 @@
 ------------------------------------------------------------------------
 ### Grafický výstup simulace:
 ------------------------------------------------------------------------
+
+![GrafVystupSimulace](VystupSimulace.JPG)
+
+#### Odkaz na zdrojový kód s možností spustit simulaci: [ZdrojovyKod-SourceCode](https://www.edaplayground.com/x/Vnfz)
+
+
+###### (xhynst03 - VUT FEKT  |  23.02.2021)
 
 
 
