@@ -190,8 +190,17 @@
 
 	end architecture testbench;
 
+## Část 4 - LOG:
 
-
-
+	[2021-02-22 19:23:49 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_4bit && ghdl -r  tb_comparator_4bit   
+	analyze design.vhd
+	analyze testbench.vhd
+	elaborate tb_comparator_4bit
+	testbench.vhd:58:9:@0ms:(report note): Stimulus process started
+	testbench.vhd:73:9:@200ns:(assertion error): Error appeared for input: 0100, 0001
+	testbench.vhd:87:9:@400ns:(assertion error): Error appeared for input: 0100, 0011
+	testbench.vhd:94:9:@500ns:(assertion error): Error appeared for input: 0101, 0100
+	testbench.vhd:176:9:@1600ns:(report note): Stimulus process finished
+	Done
 
 
