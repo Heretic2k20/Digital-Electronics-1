@@ -42,51 +42,47 @@
 
 ***Popis "Black-boxu" (Vstupů a výstupů):***
 
-entity comparator_4bit is
-    port(
+	entity comparator_4bit is
+    	port(
     
-        a_i         : in  std_logic_vector(4 - 1 downto 0);
-        b_i         : in  std_logic_vector(4 - 1 downto 0);
-        B_smo_A_o	: out std_logic;    --smooler
-        B_equ_A_o	: out std_logic;	--equals
-        B_big_A_o	: out std_logic		--bigger
+       	 	a_i         : in  std_logic_vector(4 - 1 downto 0);
+       	 	b_i         : in  std_logic_vector(4 - 1 downto 0);
+        	B_smo_A_o	: out std_logic;    --smooler
+        	B_equ_A_o	: out std_logic;	--equals
+        	B_big_A_o	: out std_logic		--bigger
         
-    );
-end entity comparator_4bit;
+    	);
+	end entity comparator_4bit;
 
 ***Architektura (Implementace vzorců):***
 
-architecture Behavioral of comparator_4bit is
-begin
+	architecture Behavioral of comparator_4bit is
+	begin
 
-    B_smo_A_o  <= '1' when (b_i < a_i) else '0';	--smooler
-    B_equ_A_o  <= '1' when (b_i = a_i) else '0';	--equals
-    B_big_A_o  <= '1' when (b_i > a_i) else '0';	--bigger
+   	B_smo_A_o  <= '1' when (b_i < a_i) else '0';	--smooler
+   	B_equ_A_o  <= '1' when (b_i = a_i) else '0';	--equals
+    	B_big_A_o  <= '1' when (b_i > a_i) else '0';	--bigger
     
-     -- WRITE "GREATER" AND "EQUALS" ASSIGNMENTS HERE
-
-end architecture Behavioral;
+	end architecture Behavioral;
 
 **Testbench.vhd**
 
-end entity tb_comparator_4bit;
+	architecture testbench of tb_comparator_4bit is
 
-architecture testbench of tb_comparator_4bit is
-
-    -- Local signals
+   	 -- Local signals
     
-    signal s_a     		: std_logic_vector(4 - 1 downto 0);
-    signal s_b      	: std_logic_vector(4 - 1 downto 0);
-    signal s_B_smo_A  	: std_logic;	--smooler
-    signal s_B_equ_A  	: std_logic;	--equals
+   	 signal s_a     		: std_logic_vector(4 - 1 downto 0);
+    	signal s_b      	: std_logic_vector(4 - 1 downto 0);
+    	signal s_B_smo_A  	: std_logic;	--smooler
+    	signal s_B_equ_A  	: std_logic;	--equals
 	signal s_B_big_A 	: std_logic;	--bigger
 
 
-
-begin
-    -- Connecting testbench signals with comparator_2bit entity (Unit Under Test)
+	
+	begin
+   	 -- Connecting testbench signals with comparator_2bit entity (Unit Under Test)
     
-  uut_comparator_4bit : entity work.comparator_4bit
+  	uut_comparator_4bit : entity work.comparator_4bit
         port map(
         
             a_i         => s_a,
@@ -224,7 +220,7 @@ begin
         wait;
     end process p_stimulus;
 
-end architecture testbench;
+	end architecture testbench;
 
 
 
