@@ -218,7 +218,9 @@
 
 ![GrafVystupSimulace](VystupSimulace.JPG)
 
-#### Odkaz na zdrojový kód s možností spustit simulaci: [ZdrojovyKod-SourceCode](https://www.edaplayground.com/x/Vnfz)
+#### Odkaz na zdrojový kód s možností spustit simulaci: [SourceCode](https://www.edaplayground.com/x/Vnfz)
+
+
 
 
 ###### (xhynst03 - VUT FEKT  |  23.02.2021)
