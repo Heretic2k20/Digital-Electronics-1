@@ -43,7 +43,7 @@
 ***Popis "Black-boxu" (Vstupů a výstupů):***
 
 	entity comparator_4bit is
-    		port(
+    	port(
     
        	 	a_i         : in  std_logic_vector(4 - 1 downto 0);
        	 	b_i         : in  std_logic_vector(4 - 1 downto 0);
@@ -51,7 +51,7 @@
         		B_equ_A_o	: out std_logic;	--equals
         		B_big_A_o	: out std_logic		--bigger
         
-    		);
+    	);
 	end entity comparator_4bit;
 
 ***Architektura (Implementace vzorců):***
