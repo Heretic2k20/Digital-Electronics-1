@@ -33,5 +33,11 @@
 *f(b<a) = [b1 + b0 + a1 + a0] . [b1 + not(b0) + a1 + a0] . [b1 + not(b0) + a1 + not(a0)] . [not(b1) + b0 + a1 + a0] . [not(b1) + b0 + a1 + not(a0)] . [not(b1) + b0 + not(a1) + a0] . [not(b1) + (notb0) + a1 + a0] . [not(b1) + not(b0) + a1 + not(a0)] . [not(b1) + not(b0) + not(a1) + a0] . [not(b1) + not(b0) + not(a1) + not(a0)]*
 
 
-## Část 2 - Karnaughovy-Mapy a zjednodušené logické funkce:
+## Část 2 - Karnaughovy mapy a zjednodušené logické funkce:
 ![K-Maps](K-maps.JPG)
+
+![K-MapsLessThen](LessThen.JPG)
+
+![K-MapsEquals](Equals.JPG)
+
+![K-MapsBiggerThen](BiggerThen.JPG)
