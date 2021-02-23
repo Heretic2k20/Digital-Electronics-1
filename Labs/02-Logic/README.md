@@ -35,9 +35,3 @@
 
 ## Část 2 - Karnaughovy mapy a zjednodušené logické funkce:
 ![K-Maps](K-maps.JPG)
-
-![K-MapsLessThen](LessThen.JPG)
-
-![K-MapsEquals](Equals.JPG)
-
-![K-MapsBiggerThen](BiggerThen.JPG)
