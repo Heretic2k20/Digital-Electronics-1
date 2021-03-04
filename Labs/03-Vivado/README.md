@@ -28,3 +28,5 @@
 ## Část 2 - Vivado project creation tutorial:
 
 
+
+###### (xhynst03 - VUT FEKT  |  15.02.2021)
