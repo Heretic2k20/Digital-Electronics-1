@@ -27,8 +27,9 @@
 
 ## Část 2 - Tutorial tvorby Vivado projektu:
 
-
+**1~** *File --> Project --> New --> Next*
 ![Vivado001](001.JPG)
+
 ![Vivado002](002.JPG)
 ![Vivado003](003.JPG)
 ![Vivado004](004.JPG)
