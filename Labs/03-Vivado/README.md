@@ -28,17 +28,17 @@
 ## Část 2 - Tutorial tvorby Vivado projektu:
 
 
-![Vivado001](001.jpg)
-![Vivado002](002.jpg)
-![Vivado003](003.jpg)
-![Vivado004](004.jpg)
-![Vivado005](005.jpg)
-![Vivado006](006.jpg)
-![Vivado007](007.jpg)
-![Vivado008](008.jpg)
-![Vivado009](009.jpg)
-![Vivado010](010.jpg)
-![Vivado011](011.jpg)
+![Vivado001](001.JPG)
+![Vivado002](002.JPG)
+![Vivado003](003.JPG)
+![Vivado004](004.JPG)
+![Vivado005](005.JPG)
+![Vivado006](006.JPG)
+![Vivado007](007.JPG)
+![Vivado008](008.JPG)
+![Vivado009](009.JPG)
+![Vivado010](010.JPG)
+![Vivado011](011.JPG)
 
 
 
