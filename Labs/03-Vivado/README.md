@@ -33,35 +33,35 @@
 
 **1~** *File --> Project --> New --> Next*
 
-![Vivado001](001.JPG)
+![Vivado001](images/001.JPG)
 
 **2~** *Next*
 
-![Vivado002](002.JPG)
+![Vivado002](images/002.JPG)
 
 **3~** *Project_Name  -->  Next*
 
-![Vivado003](003.JPG)
+![Vivado003](images/003.JPG)
 
 **4~** *RTL Project  -->  Next*
 
-![Vivado004](004.JPG)
+![Vivado004](images/004.JPG)
 
-**5~** *Create_File  -->  File_Name  -->  OK   -->  Next*
+**5~** *Create_File  -->  File_Name  -->  VHDL  -->  OK   -->  Next*
 
-![Vivado005](005.JPG)
+![Vivado005](images/005.JPG)
 
 **6~** *Next*
 
-![Vivado006](006.JPG)
+![Vivado006](images/006.JPG)
 
 **7~** *Boards  -->  Choose_Mother_Board  -->  Next*
 
-![Vivado007](007.JPG)
+![Vivado007](images/007.JPG)
 
 **8~** *Finish  -->  Pop-up window  -->  Yes  --> Another pop-up window  -->  OK  -->  Another pop-up window  -->  Yes*
 
-![Vivado008](008.JPG)
+![Vivado008](images/008.JPG)
 
 ------------------------------------------------------------------------
 #### Nový zdrojový soubor simulace
@@ -69,15 +69,15 @@
 
 **9~** *File  -->  Add_Sources  -->  Add or create simulation sources  -->  Next*
 
-![Vivado009](009.JPG)
+![Vivado009](images/009.JPG)
 
-**10~** *Create_File  -->  File_Name  -->  OK  -->  FINISH  -->  OK  -->  Pop-up window  -->  Yes*
+**10~** *Create_File  -->  File_Name  -->  VHDL  -->  OK  -->  FINISH  -->  OK  -->  Pop-up window  -->  Yes*
 
-![Vivado010](010.JPG)
+![Vivado010](images/010.JPG)
 
 **11~** *DONE*
 
-![Vivado011](011.JPG)
+![Vivado011](images/011.JPG)
 
 
 
