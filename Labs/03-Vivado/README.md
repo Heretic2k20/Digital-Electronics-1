@@ -27,27 +27,52 @@
 
 ## Část 2 - Tutorial tvorby Vivado projektu:
 
+**Nový projekt**
+
 **1~** *File --> Project --> New --> Next*
+
 ![Vivado001](001.JPG)
+
 **2~** *Next*
+
 ![Vivado002](002.JPG)
+
 **3~** *Project_Name  -->  Next*
+
 ![Vivado003](003.JPG)
+
 **4~** *RTL Project  -->  Next*
+
 ![Vivado004](004.JPG)
+
 **5~** *Create_File  -->  File_Name  -->  OK   -->  Next*
+
 ![Vivado005](005.JPG)
+
 **6~** *Next*
+
 ![Vivado006](006.JPG)
+
 **7~** *Boards  -->  Choose_Mother_Board  -->  Next*
+
 ![Vivado007](007.JPG)
+
 **8~** *Finish  -->  Pop-up window  -->  Yes  --> Another pop-up window  -->  OK  -->  Another pop-up window  -->  Yes*
+
 ![Vivado008](008.JPG)
+
+**Nový zdrojový soubor simulace**
+
 **9~** *File  -->  Add_Sources  -->  Add or create simulation sources  -->  Next*
+
 ![Vivado009](009.JPG)
-**10~** *Create_File  -->  File_Name  -->  OK  -->  FINISH*
+
+**10~** *Create_File  -->  File_Name  -->  OK  -->  FINISH  -->  OK  -->  Pop-up window  -->  Yes*
+
 ![Vivado010](010.JPG)
-**11~** **
+
+**11~** *DONE*
+
 ![Vivado011](011.JPG)
 
 
