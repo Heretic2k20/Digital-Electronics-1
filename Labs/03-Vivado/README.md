@@ -135,4 +135,4 @@ p_stimulus : process
 ------------------------------------------------------------------------
 ![Simulace](images/Simulation.JPG)
 
-###### (xhynst03 - VUT FEKT  |  02.03.2021)
+###### (xhynst03 - VUT FEKT  |  04.03.2021)
