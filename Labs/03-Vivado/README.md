@@ -35,31 +35,31 @@
 
 ![Vivado001](images/001.JPG)
 
-**2~** *Next*
+**2~** *Project_Name  -->  Next*
 
 ![Vivado002](images/002.JPG)
 
-**3~** *Project_Name  -->  Next*
+**3~** *RTL Project  -->  Next*
 
 ![Vivado003](images/003.JPG)
 
-**4~** *RTL Project  -->  Next*
+**4~** *Create_File  -->  File_Name  -->  VHDL  -->  OK   -->  Next*
 
 ![Vivado004](images/004.JPG)
 
-**5~** *Create_File  -->  File_Name  -->  VHDL  -->  OK   -->  Next*
+**5~** *Next*
 
 ![Vivado005](images/005.JPG)
 
-**6~** *Next*
+**6~** *Boards  -->  Choose_Mother_Board  -->  Next*
 
 ![Vivado006](images/006.JPG)
 
-**7~** *Boards  -->  Choose_Mother_Board  -->  Next*
+**7~** *Finish*
 
 ![Vivado007](images/007.JPG)
 
-**8~** *Finish  -->  Pop-up window  -->  Yes  --> Another pop-up window  -->  OK  -->  Another pop-up window  -->  Yes*
+**8~** *Pop-up window  -->  Yes  --> Another pop-up window  -->  OK  -->  Another pop-up window  -->  Yes*
 
 ![Vivado008](images/008.JPG)
 
