@@ -1,6 +1,6 @@
 # Lab 03 - VIVADO
 
-![Logo](logolink_eng.jpg)
+![images/Logo](logolink_eng.jpg)
 
 ## Část 1 - Příprava:
 **Tabulka připravená před cvičením:**
