@@ -133,6 +133,6 @@ p_stimulus : process
 ------------------------------------------------------------------------
 ### Výsledek Simulace:
 ------------------------------------------------------------------------
-![Simulace](images/simulace.JPG)
+![Simulace](images/Simulation.JPG)
 
 ###### (xhynst03 - VUT FEKT  |  02.03.2021)
