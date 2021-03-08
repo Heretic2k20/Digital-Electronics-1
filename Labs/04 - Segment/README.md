@@ -4,7 +4,9 @@
 
 ## Část 1 - Příprava:
 
-**Truth table**
+------------------------------------------------------------------------
+### Truth table
+------------------------------------------------------------------------
 
 | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -25,13 +27,17 @@
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
-**Schéma dekodéru:**
+------------------------------------------------------------------------
+### Schéma dekodéru
+------------------------------------------------------------------------
 
 ![Schema-Dekoderu](image/Schema.png)
 
 ## Část 2 - Sedmi segmentový display dekodér:
 
-**VHDL architektura souboru hex_7seg**
+------------------------------------------------------------------------
+### VHDL architektura souboru hex_7seg
+------------------------------------------------------------------------
 
 ```vhdl
   begin
@@ -90,7 +96,9 @@
     end process p_7seg_decoder;
 ```
 
-**VHDL stimulus proces souboru tb_hex_7seg.vhd (TestBench)**
+------------------------------------------------------------------------
+### VHDL stimulus proces souboru tb_hex_7seg.vhd (TestBench)
+------------------------------------------------------------------------
 
  ```vhdl
     p_stimulus : process
@@ -134,13 +142,15 @@
     end process p_stimulus;
  ```
  
- **Výsledek simulace tb_hex_7seg.vhd**
+------------------------------------------------------------------------
+### Výsledek simulace tb_hex_7seg.vhd
+------------------------------------------------------------------------
  
 ![Simulace-tb_hex_seg.vhd](image/hex_7seg_simulation.JPG)
 
 ## Část 3 - LED(7:4) indicators:
 
-**Pravdivostní tabulka:**
+###Pravdivostní tabulka:
 
 | **Hex** | **Inputs** | **LED(7:4)** |
 | :-: | :-: | :-: |
@@ -160,9 +170,11 @@
 | d | 1101 | 6 |
 | E | 1110 | - |
 | F | 1111 | 6 |
- 
- **VHDL kód souboru top.vhdl**
- 
+
+------------------------------------------------------------------------
+ ###VHDL kód souboru top.vhd
+------------------------------------------------------------------------
+
  ```vhdl
  hex2seg : entity work.hex_7seg
         port map(
@@ -195,6 +207,10 @@
     LED(7)  <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0';
  ```
  
-  **Výsledek simulace tb_top.vhd**
+ ------------------------------------------------------------------------
+  ### Výsledek simulace tb_top.vhd
+ ------------------------------------------------------------------------ 
   
   ![Simulace-tb_top.vhd](image/top_simulation.JPG)
+  
+  ###### (xhynst03 - VUT FEKT  |  04.03.2021)
