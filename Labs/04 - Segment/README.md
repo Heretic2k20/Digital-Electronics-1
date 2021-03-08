@@ -136,7 +136,7 @@
  
  **Výsledek simulace tb_hex_7seg.vhd**
  
-![Simulace-tb_hex_seg.vhd](image/tb_hex_7seg.JPG)
+![Simulace-tb_hex_seg.vhd](image/hex_7seg_simulation.JPG)
 
 ## Část 3 - LED(7:4) indicators:
 
