@@ -47,7 +47,9 @@ p_cnt_up_down : process(clk)
 ------------------------------------------------------------------------
 **VHDL kód pro reset a stimulus process
 ------------------------------------------------------------------------
+
  **RESET**
+ 
  ```vhdl
  p_reset_gen : process
     begin
@@ -64,7 +66,8 @@ p_cnt_up_down : process(clk)
  ```
  
  **STIMULUS**
- ```vhdl
+ 
+```vhdl
  p_stimulus : process
     begin
         report "Stimulus process started" severity note;
@@ -87,7 +90,7 @@ p_cnt_up_down : process(clk)
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
-    ```
+```
     
     
  ###### (xhynst03 - VUT FEKT  |  04.03.2021)
