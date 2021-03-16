@@ -1,6 +1,6 @@
 # Lab 05 - Counter
 
-![Logo](logolink_eng.jpg)
+![Logo](images/logolink_eng.jpg)
 
 ## Část 1 - Příprava:
 
@@ -17,7 +17,7 @@
 
 **Scháma BTN:**
 ------------------------------------------------------------------------
-![SchemaBTN](BTN.PNG)
+![SchemaBTN](images/BTN.PNG)
 
 ## Část 2 - VHDL kód pro povolený hodinový signál:
 ------------------------------------------------------------------------
@@ -96,7 +96,7 @@ p_cnt_up_down : process(clk)
 **Výstup simulace**
 ------------------------------------------------------------------------
 
-![Vystup simulace](vystup-simulace-lab5.JPG)
+![Vystup simulace](images/vystup-simulace-lab5.JPG)
 
 ------------------------------------------------------------------------
 ## Část 3 - TOP
@@ -185,9 +185,9 @@ end architecture Behavioral;
 
 ## Část 4 - 4 a 16 bitový counter:
 
-![4-bit-counter](4-bit-counter01.png)
+![4-bit-counter](images/4-bit-counter01.png)
 
-![16-bit-counter](16-bit-counter01.png)
+![16-bit-counter](images/16-bit-counter01.png)
 
 
 ###### (xhynst03 - VUT FEKT  |  04.03.2021)
