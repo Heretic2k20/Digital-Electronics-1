@@ -185,9 +185,9 @@ end architecture Behavioral;
 
 ## Část 4 - 4 a 16 bitový counter:
 
-![4-bit-counter](4-bit-counter-PNG)
+![4-bit-counter](4-bit-counter01.png)
 
-![16-bit-counter](16-bit-counter.PNG)
+![16-bit-counter](16-bit-counter01.png)
 
 
 ###### (xhynst03 - VUT FEKT  |  04.03.2021)
