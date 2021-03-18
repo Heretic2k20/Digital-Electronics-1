@@ -198,4 +198,4 @@ end architecture Behavioral;
 ![16-bit-counter](images/16-bit-counter01.png)
 
 
-###### (xhynst03 - VUT FEKT  |  04.03.2021~)
+###### (xhynst03 - VUT FEKT  |  04.03.2021)
