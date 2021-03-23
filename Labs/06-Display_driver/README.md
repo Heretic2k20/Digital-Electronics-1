@@ -214,7 +214,7 @@ end architecture Behavioral;
 **Schéma Eight-digit driveru**
 ------------------------------------------------------------------------
 
-![SIMULACE](images/Digital driver.png)
+![SIMULACE](images/Digital-driver.png)
 
 
 ###### (xhynst03 - VUT FEKT  |  15.02.2021)
