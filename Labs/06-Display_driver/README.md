@@ -217,6 +217,6 @@ end architecture Behavioral;
 ![SIMULACE](images/Digital-driver.png)
 
 
-###### (xhynst03 - VUT FEKT  |  15.02.2021)
+###### (xhynst03 - VUT FEKT  |  23.03.2021)
 
 
