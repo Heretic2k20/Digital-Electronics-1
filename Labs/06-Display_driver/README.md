@@ -1,4 +1,4 @@
-# Lab 01 - Display driver
+# Lab 06 - Display driver
 
 ![Logo](images/logolink_eng.jpg)
 
