@@ -76,7 +76,6 @@ architecture testbench of tb_driver_7seg_4digits is
     
     signal s_dp_o   : std_logic;
     
-**Výstup simulace**
 
 begin
     uut_driver_7seg_4digits : entity work.driver_7seg_4digits
@@ -211,13 +210,13 @@ end architecture Behavioral;
 ![SIMULACE](images/Výstup-simulace-06.JPG)
 
 
-###### (xhynst03 - VUT FEKT  |  15.02.2021)
-
-
 ------------------------------------------------------------------------
 **Schéma Eight-digit driveru**
 ------------------------------------------------------------------------
 
 ![SCHÉMA](images/Digital driver.png)
+
+
+###### (xhynst03 - VUT FEKT  |  15.02.2021)
 
 
