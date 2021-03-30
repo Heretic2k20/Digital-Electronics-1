@@ -573,10 +573,14 @@ end Behavioral;
 ------------------------------------------------------------------------
 ![Simulace](images/tb_t_ff_rst.JPG)
 
-### rb_d__ff_rst:
+### tb_d__ff_rst:
 ------------------------------------------------------------------------
-![Simulace](images/rb_d__ff_rst.JPG)
+![Simulace](images/tb_d__ff_rst.JPG)
 
+   ## Část 4 - Schéma:
+------------------------------------------------------------------------
+
+![Schema](images/Schema.JPG)
    
    ###### (xhynst03 - VUT FEKT  |  30.03.2021)
   
