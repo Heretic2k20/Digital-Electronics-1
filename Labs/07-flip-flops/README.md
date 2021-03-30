@@ -1,6 +1,6 @@
 # Lab 07 - Flips Flops
 
-![Logo](logolink_eng.jpg)
+![Logo](images/logolink_eng.jpg)
 
 ## Část 1 - Domácí příprava:
 ------------------------------------------------------------------------
