@@ -53,14 +53,15 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity d_latch is
+
   Port ( 
          en     : in std_logic;
          arst   : in std_logic;
          d      : in std_logic;
          q      : out std_logic;
-         q_bar  : out std_logic
-  
+         q_bar  : out std_logic  
   );
+  
 end d_latch;
 
 architecture Behavioral of d_latch is
@@ -69,6 +70,7 @@ begin
 
     p_d_latch : process (d, arst, en)
     begin
+    
         if (arst = '1') then
             q <= '0';
             q_bar <= '1';
@@ -104,6 +106,7 @@ architecture Behavioral of tb_d_latch is
         signal s_q_bar  :  std_logic;
 
 begin
+
 uut_d_latch: entity work.d_latch
     port map(
         en    => s_en,   
@@ -112,12 +115,12 @@ uut_d_latch: entity work.d_latch
         q     => s_q,    
         q_bar => s_q_bar
 );
+
 p_reset_gen : process
     begin
         s_arst <= '0';
         wait for 12 ns;
         
-        -- Reset activated
         s_arst <= '1';
         wait for 80 ns;
        
@@ -125,7 +128,6 @@ p_reset_gen : process
         s_arst <= '0';
         wait for 150 ns;
         
-        -- Reset activated
         s_arst <= '1';
         wait for 60 ns;
        
