@@ -227,10 +227,10 @@ end Behavioral;
 ```
 
 
-### d_latch.vhdl:
+### Výsledky simulace rb_d_latch:
 ------------------------------------------------------------------------
 
-![Simulace](images/tb_d_latch.jpg)
+![Simulace](images/tb_d_latch.JPG)
 
 
    
