@@ -141,7 +141,20 @@ p_output_fsm : process(s_state)
     end process p_output_fsm;
 ```
 
-### Screenshot simulací
+### Screenshot simulace
+
+![Simulace01](images/)
+
+![Simulace02](images/)
+
+
+## Část 2 - Chytré řízení:
+
+### Tabulky
+
+
+###Schéma
+
 
 
 
