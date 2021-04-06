@@ -18,7 +18,7 @@
 
 **Stavový diagram**
 
-![State-Diagram](images/state.jpg)
+![State-Diagram](images/scheme.jpg)
 
 
 
