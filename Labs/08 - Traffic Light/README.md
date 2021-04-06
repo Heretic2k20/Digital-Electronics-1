@@ -158,7 +158,7 @@ p_output_fsm : process(s_state)
 | *WEST_GO* | Červená | Zelená | **-** |
 |  |  |  |  |
 | **Stav 01** | **Směr South** | **Směr West** | **Zpoždění** | 
-| *SOUTH_GO* | Zelená | Červená | 0 sec | 
+| *SOUTH_GO* | <span style="color: green">Zelená</span> | Červená | 0 sec | 
 | *WEST_GO* | Červená | Červená |  2 sec |
 | *SOUTH_WAIT* | Oranžová | Červená | 1 sec | 
 | *STOP1* | Červená | Červená | **-** |
