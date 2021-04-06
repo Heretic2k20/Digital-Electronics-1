@@ -20,6 +20,9 @@
 
 ![Scheme](images/zapojeni02.png)
 
+
+## Část 2 - Semafory:
+
 **Stavový diagram**
 
 ![State-Diagram](images/Scheme.jpg)
