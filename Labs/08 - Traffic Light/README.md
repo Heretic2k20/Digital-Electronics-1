@@ -181,7 +181,7 @@ p_output_fsm : process(s_state)
 
 ### Schéma
 
-![scheme-smart](images/scheme-smart.jpg)
+![scheme-smart](images/Scheme-smart.jpg)
 
 **Process p_smart_traffic_fsm**
 
