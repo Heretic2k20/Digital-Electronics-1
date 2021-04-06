@@ -27,7 +27,7 @@
 
 ![State-Diagram](images/Scheme.jpg)
 
-##process p_traffic_fsm
+### Process p_traffic_fsm
 
 ```vhdl
 p_traffic_fsm : process(clk)
@@ -103,6 +103,47 @@ p_traffic_fsm : process(clk)
         end if;
     end process p_traffic_fsm;
 ```
+
+### process p_output_fsm
+
+```vhdl
+p_output_fsm : process(s_state)
+    begin
+        case s_state is
+            when STOP1 =>
+                south_o <= "100";   -- Red
+                west_o  <= "100";   -- Red
+            
+            when WEST_GO =>
+                south_o <= "100";   -- Red
+                west_o  <= "010";   -- Green
+           
+            when WEST_WAIT =>
+                south_o <= "100";   -- Red
+                west_o  <= "110";   -- Yellow
+            
+            when STOP2 =>
+                south_o <= "100";   -- Red
+                west_o  <= "100";   -- Red 
+            
+            when SOUTH_GO =>
+                south_o <= "010";   -- Green 
+                west_o  <= "100";   -- Red 
+            
+            when SOUTH_WAIT =>
+                south_o <= "110";   -- Yellow 
+                west_o  <= "100";   -- Red 
+
+            when others =>
+                south_o <= "100";   -- Red
+                west_o  <= "100";   -- Red
+        end case;
+    end process p_output_fsm;
+```
+
+### Screenshot simulací
+
+
 
 
 
