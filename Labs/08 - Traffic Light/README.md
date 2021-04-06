@@ -154,7 +154,7 @@ p_output_fsm : process(s_state)
 
 | **Stav 00** | **Směr South** | **Směr West** | **Zpoždění** | 
 | :-: | :-: | :-: | :-: |
-| *SOUTH_GO* | Zelená | Červená | **-** | 
+| *SOUTH_GO* | + Zelená | Červená | **-** | 
 | *WEST_GO* | Červená | Zelená | **-** |
 |  |  |  |  |
 | **Stav 01** | **Směr South** | **Směr West** | **Zpoždění** | 
