@@ -143,9 +143,9 @@ p_output_fsm : process(s_state)
 
 ### Screenshot simulace
 
-![Simulace01](images/)
+![Simulace01](images/simulation01.png)
 
-![Simulace02](images/)
+![Simulace02](images/simulation02.png)
 
 
 ## Část 2 - Chytré řízení:
@@ -153,7 +153,7 @@ p_output_fsm : process(s_state)
 ### Tabulky
 
 
-###Schéma
+### Schéma
 
 
 
