@@ -153,29 +153,29 @@ p_output_fsm : process(s_state)
 ### Tabulky
 
 | **Stav 00** | **Směr South** | **Směr West** | **Zpoždění** | 
-| - | - | - | - | 
-| **SOUTH_GO** | Zelená | Červená | **-** | 
-| **WEST_GO** | Červená | Zelená | **-** |
-| **Stav 01** | **Směr South** | **Směr West** | **Zpoždění** | 
-| :-: | :-: | :-: | :-: | 
-| **SOUTH_GO** | Zelená | Červená | 0 sec | 
-| **WEST_GO** | Červená | Červená |  2 sec |
-| **SOUTH_WAIT** | Oranžová | Červená | 1 sec | 
-| **STOP1** | Červená | Červená | **-** |
-| **Stav 11** | **Směr South** | **Směr West** | **Zpoždění** | 
-| :-: | :-: | :-: | :-: | 
-| **SOUTH_GO** | Zelená | Červená | 4 sec | 
-| **WEST_GO** | Červená | Zelená |  4 sec |
-| **SOUTH_WAIT** | Oranžová | Červená | 2 sec | 
-| **WEST_WAIT** | Červená | Oranžová | 2 sec | 
-| **STOP1** | Červená | Červená | 1 sec |
-| **STOP2** | Červená | Červená | 1 sec |
-| **Stav 10** | **Směr South** | **Směr West** | **Zpoždění** | 
 | :-: | :-: | :-: | :-: |
-| **SOUTH_GO** | Zelená | Červená | **-** | 
-| **WEST_GO** | Červená | Zelená |  0 sec |
-| **WEST_WAIT** | Červená | Oranžová | 2 sec | 
-| **STOP2** | Červená | Červená | 1 sec |
+| *SOUTH_GO* | Zelená | Červená | **-** | 
+| *WEST_GO* | Červená | Zelená | **-** |
+
+| **Stav 01** | **Směr South** | **Směr West** | **Zpoždění** | 
+| *SOUTH_GO* | Zelená | Červená | 0 sec | 
+| *WEST_GO* | Červená | Červená |  2 sec |
+| *SOUTH_WAIT* | Oranžová | Červená | 1 sec | 
+| *STOP1* | Červená | Červená | **-** |
+
+| **Stav 11** | **Směr South** | **Směr West** | **Zpoždění** | 
+| *SOUTH_GO* | Zelená | Červená | 4 sec | 
+| *WEST_GO* | Červená | Zelená |  4 sec |
+| *SOUTH_WAIT* | Oranžová | Červená | 2 sec | 
+| *WEST_WAIT* | Červená | Oranžová | 2 sec | 
+| *STOP1* | Červená | Červená | 1 sec |
+| *STOP2* | Červená | Červená | 1 sec |
+
+| **Stav 10** | **Směr South** | **Směr West** | **Zpoždění** | 
+| *SOUTH_GO* | Zelená | Červená | **-** | 
+| *WEST_GO* | Červená | Zelená |  0 sec |
+| *WEST_WAIT* | Červená | Oranžová | 2 sec | 
+| *STOP2* | Červená | Červená | 1 sec |
 
 
 
